@@ -1,0 +1,21 @@
+@import '@/styles/vars';
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+*,
+*:before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background: $bgFone;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
